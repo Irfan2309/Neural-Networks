@@ -1,3 +1,5 @@
+from NeuralNetwork import NeuralNetwork
+from Layers import Layer
 # Class for building the network
 class ANNBuilder:
 

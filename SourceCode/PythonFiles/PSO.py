@@ -1,4 +1,5 @@
 import numpy as np
+from Particle import Particle
 
 # Class for PSO Algorithm
 class PSO:
