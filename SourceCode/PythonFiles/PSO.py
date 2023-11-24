@@ -40,7 +40,7 @@ class PSO:
             particle.initialize(weightBiasCount)
 
             # Set the informants
-            informantsList = [j for j in self.particles if j != self.particles.index(i)]
+            informantsList = [j for j in self.particles if j != self.particles.index(particle)]
             particle.setInformants(informantsList, self.numInformants)
     
     # Function to train the network
