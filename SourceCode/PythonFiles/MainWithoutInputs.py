@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 
 # Load the dataset
-df = pd.read_csv('SourceCode/Dataset/data_banknote_authentication.csv', header=None)
+df = pd.read_csv('/Users/irfan/Downloads/Bic CW/SourceCode/Dataset/data_banknote_authentication.csv', header=None)
 
 # Shuffle the dataset to get diverse training and testing sets
 df = df.sample(frac=1, random_state=42)
